@@ -1,0 +1,4 @@
+function simpleMultiplication(x) {
+    (Math.floor(x % 2) == 0) ? x = x * 8 : x = x * 9
+    return x
+}
