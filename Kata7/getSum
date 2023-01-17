@@ -1,0 +1,10 @@
+function getSum(a, b)
+{ 
+ let max = Math.max(a, b),
+      current = Math.min(a, b),
+      summ = 0;
+  while (current <= max) {
+    summ += current++;
+  }
+  return a === b ? a : summ; 
+}
