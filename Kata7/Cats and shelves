@@ -1,0 +1,5 @@
+function solution(start, finish) 
+{
+  let  c = finish - start
+    return Math.floor(c / 3) + (c % 3)
+}
