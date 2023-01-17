@@ -1,0 +1,9 @@
+function findLowestInt(k) {
+    // your code here
+    let k1 = k + 1,
+        result = 1,
+        sort = (k, r) => [...String(k * r)].sort().join('')
+        while (true){
+          if (sort(k, result) == sort(k1, result++)) return result - 1
+        }
+}
